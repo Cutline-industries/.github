@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://artemisai-bycutlineindustries.studio"><img alt="Website: artemisai-bycutlineindustries.studio" src="https://img.shields.io/badge/Website-artemisai--bycutlineindustries.studio-3279f9?style=for-the-badge&labelColor=0d0e11"></a>
   <a href="https://artemisai-bycutlineindustries.studio/portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Our_work-5a3fe0?style=for-the-badge&labelColor=0d0e11"></a>
-  <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="Open source: artemis-567885" src="https://img.shields.io/badge/Open_source-artemis--567885-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
+  <a href="https://github.com/Cutline-industries/artemis-567885"><img alt="Open source: artemis-567885" src="https://img.shields.io/badge/Open_source-artemis--567885-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
 </p>
 
 ## Cutline Industries LLC
@@ -27,7 +27,7 @@
     <td width="50%" valign="top">
       <h3>🧠 Artemis 567885 <sub><code>open source</code></sub></h3>
       A self-expanding sparse Mixture-of-Experts engine in PyTorch. It grew from 1 to 12 layers over 105 supervised cycles.<br><br>
-      <a href="https://github.com/lpittman-blip/artemis-567885"><img alt="View the repo" src="https://img.shields.io/badge/View-repo-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
+      <a href="https://github.com/Cutline-industries/artemis-567885"><img alt="View the repo" src="https://img.shields.io/badge/View-repo-22d3ee?style=for-the-badge&labelColor=0d0e11&logo=github&logoColor=white"></a>
     </td>
   </tr>
   <tr>
@@ -46,7 +46,7 @@
 
 ### Shipped and measured
 
-- **Self-expanding MoE engine**: over 105 supervised cycles, [Artemis 567885](https://github.com/lpittman-blip/artemis-567885) grew from 1 layer to 12 layers and 87 experts, and eval loss went from 0.0965 to 0.0260. One cycle timed out and rolled back cleanly.
+- **Self-expanding MoE engine**: over 105 supervised cycles, [Artemis 567885](https://github.com/Cutline-industries/artemis-567885) grew from 1 layer to 12 layers and 87 experts, and eval loss went from 0.0965 to 0.0260. One cycle timed out and rolled back cleanly.
 - **Training on rented GPUs**: a 48.8M-parameter dense Artemis LM trained on 1× RTX A6000 for 50 minutes (374M tokens). Held-out web text went from 3.293 to 1.191 bits/byte. Measured spend: $0.44.
 - **Fine-tuning with cost guards**: QLoRA fine-tunes of a 7B and a 30B model on rented 2-GPU instances, with hard caps of $5 and $15. Real spend: $0.53 and $1.08.
 
